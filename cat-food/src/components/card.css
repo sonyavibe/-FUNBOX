@@ -1,0 +1,11 @@
+.card__box {
+  height: 30rem;
+  width: 20rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.card {
+  background-color: rgb(117, 117, 12);
+}
+
