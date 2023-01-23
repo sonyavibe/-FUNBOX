@@ -94,3 +94,15 @@
 .to-buy__button:hover {
   color: var(--accent-default-hover);
 }
+
+/*=========BREAKPOINTS=========*/
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {  
+  .card{
+    margin-top: 2rem;
+  }
+}

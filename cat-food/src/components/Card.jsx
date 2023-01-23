@@ -1,12 +1,19 @@
 import React from "react";
 import "./card.css";
 import Data from "./Data";
+import { useState } from "react";
 
 const Card = ({item}) => {
+  const [cardState, setCardState] = useState(false);
+  
+  
   return (
     <div className="card__box" key={item.id}>
-      <div className="card">
+      
+      <div className="card" >
+
         <div className="card_text">
+
           <img src="../assets/cat.png" alt="" className="card__img" />
 
           <span className="pre__heading">Сказочное заморское яство</span>
@@ -22,6 +29,7 @@ const Card = ({item}) => {
         </div>
       </div>
       <span className="to-buy__subtext">Чего сидишь? Порадуй котэ, <button className="to-buy__button">купи</button>.</span>
+    
     </div>
   )
 }

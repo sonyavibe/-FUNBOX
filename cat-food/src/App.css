@@ -71,10 +71,15 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .card__container {
-    
+    display: ;
   }
 }
 
 @media screen and (max-width: 480px) {
-  
+  .card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
