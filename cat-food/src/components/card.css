@@ -95,6 +95,80 @@
   color: var(--accent-default-hover);
 }
 
+/*==========ACTIVE STATE===========*/
+
+.card-active {
+  width: 20rem;
+  height: 32rem;
+  background-image: url("../assets/card_active.png");
+  background-size: 20rem 32rem;
+  padding: 1.5rem 3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.size__icon-active {
+  width: 5rem;
+  height: 5rem;
+  background: var(--accent-active);
+  border-radius: 50%;
+  position: relative;
+  left: 77%;
+  bottom: -45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.card-active:hover {
+  background-image: url("../assets/card_active_hover.png");
+}
+
+.card-active:hover .size__icon-active {
+  background-color: var(--accent-active-hover);
+}
+
+.pre__heading-active {
+  color: var(--accent-active-hover);
+  font-weight: var(--font-bold);
+}
+
+
+/*==========INACTIVE STATE===========*/
+
+.card-inactive {
+  width: 20rem;
+  height: 32rem;
+  background-image: url("../assets/card_inactive.png");
+  background-size: 20rem 32rem;
+  padding: 1.5rem 3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.size__icon-inactive {
+  width: 5rem;
+  height: 5rem;
+  background: var(--accent-inactive);
+  border-radius: 50%;
+  position: relative;
+  left: 77%;
+  bottom: -45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.inactive {
+  color: var(--accent-inactive);
+}
+
+.to-buy__subtext-inactive {
+  color: var(--text-color-inactive);
+}
+
 /*=========BREAKPOINTS=========*/
 
 @media screen and (max-width: 768px) {

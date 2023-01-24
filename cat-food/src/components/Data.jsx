@@ -8,6 +8,7 @@ const Data = [
     size: '0,5',
     activeSubtext: 'Печень утки разварная с артишоками.',
     inactiveSubtext: 'Печалька, с фуа-гра закончился.',
+    available: true,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const Data = [
     size: '2',
     activeSubtext: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
     inactiveSubtext: 'Печалька, с рыбой закончился.',
+    available: true,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const Data = [
     size: '5',
     activeSubtext: 'Филе из цыплят с трюфелями в бульоне.',
     inactiveSubtext: 'Печалька, с курой закончился.',
+    available: false,
   }
 ];
 
