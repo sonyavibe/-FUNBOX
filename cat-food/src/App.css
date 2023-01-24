@@ -70,17 +70,12 @@ h1 {
 
 /*=========BREAKPOINTS=========*/
 
-@media screen and (max-width: 768px) {
-  .card__container {
-    display: ;
-  }
+@media only screen and (max-width: 768px) {
+  
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .card__container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
   }
 }

@@ -9,7 +9,7 @@ function App() {
     <div>
       <main className='main'>
         <h1>Ты сегодня покормил кота?</h1>
-        <div className='card__container'>
+        <div className='card__container grid'>
         {Data.map((item) => {
   return (
     item.available ? 
