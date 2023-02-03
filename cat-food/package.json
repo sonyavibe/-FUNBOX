@@ -1,7 +1,7 @@
 {
   "name": "cat-food",
   "version": "0.1.0",
-  "homepage": "https://sonyavibe.github.io/-FUNBOX/ы",
+  "homepage": "https://sonyavibe.github.io/-FUNBOX/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
